@@ -11,6 +11,10 @@
 		8A3857152514520F0094A3D3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A3857142514520F0094A3D3 /* ContentView.swift */; };
 		8A385717251452110094A3D3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A385716251452110094A3D3 /* Assets.xcassets */; };
 		8A38571A251452110094A3D3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8A385719251452110094A3D3 /* Preview Assets.xcassets */; };
+		8A385726251452BF0094A3D3 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A385724251452BF0094A3D3 /* WebView.swift */; };
+		8A385727251452BF0094A3D3 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A385725251452BF0094A3D3 /* DetailView.swift */; };
+		8A38572C251452EC0094A3D3 /* PostData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A38572A251452EC0094A3D3 /* PostData.swift */; };
+		8A38572D251452EC0094A3D3 /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A38572B251452EC0094A3D3 /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		8A385716251452110094A3D3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8A385719251452110094A3D3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		8A38571B251452110094A3D3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A385724251452BF0094A3D3 /* WebView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
+		8A385725251452BF0094A3D3 /* DetailView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		8A38572A251452EC0094A3D3 /* PostData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PostData.swift; sourceTree = "<group>"; };
+		8A38572B251452EC0094A3D3 /* NetworkManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,7 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				8A3857122514520F0094A3D3 /* H4X0R_News_XC12App.swift */,
-				8A3857142514520F0094A3D3 /* ContentView.swift */,
+				8A3857222514529D0094A3D3 /* Views */,
+				8A385729251452D70094A3D3 /* Models */,
 				8A385716251452110094A3D3 /* Assets.xcassets */,
 				8A38571B251452110094A3D3 /* Info.plist */,
 				8A385718251452110094A3D3 /* Preview Content */,
@@ -67,6 +76,25 @@
 				8A385719251452110094A3D3 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		8A3857222514529D0094A3D3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				8A3857142514520F0094A3D3 /* ContentView.swift */,
+				8A385725251452BF0094A3D3 /* DetailView.swift */,
+				8A385724251452BF0094A3D3 /* WebView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		8A385729251452D70094A3D3 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				8A38572B251452EC0094A3D3 /* NetworkManager.swift */,
+				8A38572A251452EC0094A3D3 /* PostData.swift */,
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,6 +166,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8A38572D251452EC0094A3D3 /* NetworkManager.swift in Sources */,
+				8A38572C251452EC0094A3D3 /* PostData.swift in Sources */,
+				8A385726251452BF0094A3D3 /* WebView.swift in Sources */,
+				8A385727251452BF0094A3D3 /* DetailView.swift in Sources */,
 				8A3857152514520F0094A3D3 /* ContentView.swift in Sources */,
 				8A3857132514520F0094A3D3 /* H4X0R_News_XC12App.swift in Sources */,
 			);
